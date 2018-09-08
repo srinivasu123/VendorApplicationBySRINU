@@ -32,9 +32,6 @@ public class Customer implements Serializable{
 	public int getCustId() {
 		return custId;
 	}
-	public void setCustId(int custId) {
-		this.custId = custId;
-	}
 	public String getCustName() {
 		return custName;
 	}
@@ -59,7 +56,21 @@ public class Customer implements Serializable{
 	public void setCustAddress(String custAddress) {
 		this.custAddress = custAddress;
 	}
-	
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getAcctoken() {
+		return acctoken;
+	}
+	public void setAcctoken(String acctoken) {
+		this.acctoken = acctoken;
+	}
+	public void setCustId(int custId) {
+		this.custId = custId;
+	}
 	@Override
 	public String toString() {
 		return "Customer [custId=" + custId + ", custName=" + custName + ", custEmail=" + custEmail + ", custType="
