@@ -48,7 +48,7 @@ public class Customer implements Serializable{
 		this.custEmail = custEmail;
 	}
 	public String getCustType() {
-		return custe;
+		return custType;
 	}
 	public void setCustType(String custType) {
 		this.custType = custType;
